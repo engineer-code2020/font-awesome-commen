@@ -55,20 +55,27 @@ text-transform: capitalize
  height: 25px; 
 color: blue;
 font-size: 16px;
+border: none;
 margin: 5px 0;
 background-color: gainsboro;
 width: 100%;
+cursor: copy;
+transition: .2s;
+}
+.container .form-1 .code:hover , .container .form-2 .code:hover
+{
+    border: red 1px solid;
+    box-shadow: black 1px 1px 2px;
 }
 .container .form-1 .color , .container .form-2 .color{
-/* /* width: 90%; */
  height: 25px; 
 width: 40%;
 font-size: 13px;
+border: blue 1px solid;
 margin: 5px 0;
 background-color: gainsboro;
 padding: 3px ;
-
-
+cursor: copy;
 }
 .container .form-1 .col-1 ,.container .form-2 .col-1{
     width: 80%;
